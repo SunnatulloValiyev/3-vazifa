@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #043873;
+    background-image: url(../image/photo-2.png) ;
+}
+
+.header_container {
+    width: 1519px;
+    height: 92px;
+    margin: 0 auto;
+    position: fixed;
+    display: flex;
+    align-items: center; 
+    top: 0;
+    background-color: #043873;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    gap: 20px;
+    color: white;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 33px;
+}
+
+.pace {
+    display: flex;
+    align-items: center;
+    margin-left: 90px;
+}
+
+.products ul {
+    gap: 30px;
+    list-style: none;
+    display: flex;
+    margin-left: 350px;
+}
+
+.products a {
+    font-family: 'DM Sans';
+    transition: all 0.9s ease;
+}
+
+.products a:hover {
+    color: aqua;
+}
+
+.products li, a {
+    text-decoration: none;
+    color: white;
+}
+
+.btns {
+    display: flex;
+    margin-left: 70px;
+    gap: 20px;
+}
+
+
+.btn-1 {
+    width: 126px;
+    height: 60px;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: #FFE492;
+    border: none;
+    font-weight: 500;
+    font-family: 'Inter';
+    font-size: 18px;
+    line-height: 23px;
+    transition: all 0.9s ease;
+}
+
+.btn-1:hover {
+    background-color: #f7cc4b;
+}
+
+.btn-2 {
+    position: relative;
+    color: white;
+    width: 227px;
+    cursor: pointer;    
+    height: 60px;
+    border: none;
+    border-radius: 8px;
+    background-color: #4F9CF9;
+    font-size: 18px;
+    line-height: 23px;
+    font-weight: 500;
+    font-family: 'Inter';
+    transition: all 0.9s ease;
+    z-index: 1;
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+}
+
+.btn-2:hover {
+    background-color: #338bf1;
+}
+
+.btns {
+    position: relative; 
+}
+
+.btns img {
+    position: absolute; 
+    top: 50%; 
+    left: 355px; 
+    transform: translate(-50%, -50%); 
+    z-index: 2; 
+}
+
+
+
+/* header tugadi */
+
+.container {
+    width: 1519px;
+    height: 529px;
+    margin: 0 auto;
+}
+
+.text-1 {
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 77px;
+    color: white;
+}
+
+.text-2 {
+    font-family: 'Inter';
+    font-weight: 400;
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 35px;
+    color: white;
+}
+
+.done {
+    margin-left: 20px;
+}
+
+.btn-3 {
+    position: relative;
+    color: white;
+    width: 227px;
+    cursor: pointer;    
+    height: 60px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: #4F9CF9;
+    font-size: 18px;
+    line-height: 23px;
+    font-weight: 500;
+    font-family: 'Inter';
+    transition: all 0.9s ease;
+    z-index: 1;
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+}
+
+.btn-3:hover {
+    background-color: #338bf1;
+}
+
+.btns-2 {
+    position: relative; 
+}
+
+.btns-2 img {
+    position: absolute;     
+    top: 50%; 
+    left: 213px; 
+    transform: translate(-50%, -50%); 
+    z-index: 2; 
+}
+
+.photo img{
+    margin-right: 90px;
+    width: 685px;
+    height: 456px;
+}   
+
+.more {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 200px;
+    margin-left: 50px;
+}
+
+
